@@ -1,0 +1,45 @@
+	<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+	<link th:href="@{/css/bootstrap.css}" rel = "stylesheet" href = "../static/css/bootstrap.css" />
+	
+	<script th:src="@{/js/jquery.js}" src= "../static/js/jquery.js"></script>
+	<script th:src="@{/js/bootstrap.js}" src= "../static/js/bootstrap.js"></script>
+	
+    <title>Modulo PQR ESG</title>
+</head>
+
+ <body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Modulo ESG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" th:href="@{/}" href="#">Inicio<span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">Sistema PQR</a>
+              <a class="nav-item nav-link" href="#">ESG</a>
+              <a class="nav-item nav-link disabled">Fidelizacion</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Header-->
+      <div class="jumbotron">
+          <h1 th:text="${post.titulo}" class="display-4 fw-bold">Custom jumbotron</h1>
+          <p th:text="${post.description}" class="lead">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+          <hr class="my-4">
+          <p th:text="${post.fecha}">It usus utility  clases for typrography and spacing to space content</p>
+          <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
+      </div>
+
+      <footer>
+        <p>EdwinCantor</p>
+      </footer>
+
+ </body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;post.html&apos; to &apos;post.html&apos;&#x0D;&#x0A;- Original project: &apos;Modulo-ESG&apos;&#x0D;&#x0A;- Destination element: &apos;post.html&apos;&#x0D;&#x0A;- Original element: &apos;post.html&apos;" description="Copy file" element1="src/main/resources/templates/post.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1669935172991" target="/Modulo-ESG/src/main/resources/templates/post.html" units="0" version="1.0"/>
+</session>
